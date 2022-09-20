@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+          <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div class="div1">
+                        
+              
+                <div class="main">
+                    <img src="C:\Users\aksha\Downloads\Let's go\images\logo.png" height="150px" width="200px">
+                  <form>  
+                <div class="div2">
+                  <label for="uname"><h4>Email</h4></label>
+                  <input type="email" placeholder="Enter Email" name="email" required id="email">
+                </div>
+                <div class="div2">
+                  <label for="psw"><h4>Password</h4></label>
+                  <input type="password" placeholder="Enter Password" name="password" required id="pass">
+                </div>
+                <div class="button1" align="center">
+                  <button type="submit" class="btn-success"><a onclick="ab()">Login</a></button>
+                </div>
+                <div class="div3">
+                  <label>
+                    <input type="checkbox"  name="remember" class="check"> Remember me
+                  </label>
+                  <div class="div4">
+                  
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+                </div>
+              
+                
+            </form>
+            </div>
+        </div>
+
+
+        <script>
+            var mail="aksharmaji4050@gmail.com";
+            var pass="1234";
+            function ab(){
+                if(document.getElementById("email").value == mail && document.getElementById("pass").value == pass)
+                {
+                    
+                    window.open("C:\Users\aksha\Downloads\Let's go\template2.html");
+                    
+                }
+                
+                else{
+                    alert("Please fill the correct email and password");
+                    return false;
+                }
+
+            }
+            
+        </script>
+    </body>
+
+</html>

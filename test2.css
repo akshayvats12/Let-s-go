@@ -1,0 +1,422 @@
+
+*{
+    font-family: 'Poppins' !important;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    
+    background-color: rgb(155, 158, 158);
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:  0px !important;
+    
+}
+.p{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace !important;
+    padding: 5px;
+    
+}
+
+
+ol{
+	margin: 0px;
+	padding: 0px;
+  
+}
+
+li{
+	height: 40px;
+	width: 148px;
+	display: inline-block;
+	
+	text-align: center;
+	line-height: 40px;
+	border-radius: 4px;
+	font-size: 15px;
+    background-color: rgb(14, 153, 228);
+    cursor: pointer;
+    color: aliceblue;
+	
+}
+.home{
+  border-radius: 4px;
+}
+
+ol li a{
+	   text-decoration: none;
+	   background-color: rgb(14, 153, 228);
+	   color: white;
+	   display: block;
+}
+
+ol li a:hover{
+			  font-size: 22px;
+			  background-color: rgb(69, 69, 244);
+			  color: black;
+			  text-decoration: none;
+			  font-family: cursive;
+        
+			  
+}
+
+ol li ol{
+		 background-color:  rgb(69, 69, 244);
+		 display: none;
+		 z-index:  999999;
+     padding: 0%;
+     
+
+}
+
+
+ol li:hover ol{
+				display: block;
+				position: absolute;
+			  	z-index: 100000;
+			  	background: transparent;
+                  width: 80px;
+                  
+                
+}
+
+.input{
+    border-radius: 10px;
+    background-color: bisque;
+    opacity: 0.8;
+    height: 30px;
+}
+/* .search{
+    border-radius: 18px;
+    cursor: pointer;
+    background-color: orange;
+    
+} */
+
+.container1{
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+    background-image: url(./images/akva.jpg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1 .head h1{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container1 .para p{
+    color: antiquewhite;
+    padding : 0% 10% 0% 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.button1{
+    display: flex;
+    padding: 30px;
+        
+}
+.btn{
+    padding: 10px;
+}
+.button {
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-end-end-radius: 40px;
+    border-top-left-radius: 40px;
+    
+  }
+  .button2 {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid #008CBA;
+    
+  }
+  
+  .button2:hover {
+    background-color: #f44242;
+    color: white;
+    
+  }
+
+
+  .category{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* padding:  50px 8% 50px 8%; */
+  }
+  #cat1{
+    /* display: flex;
+    flex-direction: column;
+    width: 25%; */
+    justify-content: center;
+    object-fit: cover;
+    padding: 1%;
+  }
+  #cat1:hover{
+    box-shadow: 2px 2px 9px #504e4e;
+  }
+  .car-img{
+    height: 250px;
+  }
+  .car-price{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+  }
+  .car-price h2{
+    color: rgb(38, 14, 177);
+    margin-bottom: 0%;
+    font-size: 1.5rem;
+  }
+  .car-price p{
+    color: #f44242;
+    margin-top: 0%;
+    font-size: 1rem;
+
+  }
+  @media only screen and (max-width: 1198px) {
+    .car-price h2{
+      color: rgb(38, 14, 177);
+      margin-bottom: 0%;
+      font-size: 2rem;
+    }
+    .car-price p{
+      color: #f44242;
+      margin-top: 0%;
+      font-size: 1.8rem;
+  
+    }
+    .car-img{
+      width: 100%;
+      height: 100%;
+      
+    }
+  }
+  
+  .deal{
+    display: flex;
+    background-color: rgb(210, 217, 224);
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .deal p{
+    margin-top: 0%;
+  }
+  .dealership{
+    background-color: rgb(210, 217, 224);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: -5%;
+  }
+  .container{
+    margin-top: 3%;
+  }
+
+  select{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 8%;
+    padding-right: 8%; */
+    margin-top: 1.5em;
+  }
+  .select1{
+    height: 40px;
+    width: 90%;
+    font-size: 15px;
+    margin-bottom: 2%;
+    
+  }
+  @media only screen and (max-width: 900px){
+.select{
+  display: block;
+}
+.select1{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.dealership{
+  height: 100%;
+}
+  }
+  .submit-deal{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+  .submit-btn{ 
+    
+    cursor: pointer;
+    background-color: rgb(243, 129, 15);
+    height: 40px;
+    width: 200px;
+    border-top-right-radius: 30px;
+    border-end-start-radius: 30px;
+    border: 1px solid;
+
+  }
+
+  
+    
+    
+.imgcar{
+  height: 100%;
+  width: 100%;
+ /* object-fit: cover; */
+ 
+}
+.card-box{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 300px;
+}
+.icon{
+ display: flex;
+ justify-content: end;
+ opacity: 0;
+}
+#div-car .col-lg-4:hover .icon{
+  display: flex;
+  opacity: 1;
+}
+  #div-car .col-lg-4{
+    position: relative;
+    box-shadow: 2px 2px 9px #504e4e;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+   
+  }
+  .box-div{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+#div-car .col-lg-4:hover .imgcar{
+  opacity: 0.2;
+  
+}
+#div-car .col-lg-4:hover .box-div{
+  opacity: 1;
+}
+
+  
+  #address{
+    height: 60.94em;
+    width: 100%;
+    background-image: url(./images/car9.jpg);
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    
+    justify-content: center;
+    color: white;
+    
+  }
+  #contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(185, 186, 187);
+    align-items: center;
+  }
+  .contact-div{
+    margin-bottom: 2em;
+  }
+  #name, #phone, #email{
+    border-radius: 3px;
+    padding: 10px 15px;
+    width: 30vw;
+    border: none;
+  }
+  #subject{
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 30vw;
+    border: none;
+  }
+  #message{
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 30vw;
+    border: none;
+    
+  }
+  .submit{
+    cursor: pointer;
+    background-color: rgb(243, 19, 15);
+    height: 40px;
+    width: 200px;
+    border-top-right-radius: 30px;
+    border-end-start-radius: 30px;
+    border: 1px solid;
+  }
+
+  #footer{
+		background-color: gray;
+		padding: 20px;
+    align-items: center;
+	}
+	#footer div {
+		
+		text-align: center;
+		font-size: 20px;
+		}
+	
+	#footer #fir p a , #fir1 p a{
+		text-decoration: none;
+		color: black;
+	}
+		
+	.copy{
+		display: flex;
+		justify-content: center;
+	}
+  
+	
+  .btn-success{
+    border-top-right-radius: 30px !important;
+    border-end-start-radius: 30px !important;
+    width: 90px;
+    
+   margin-left: 10px;
+   
+  }
+ 
